@@ -1,12 +1,13 @@
 # Project-data-analyst
 E-commerce Sales Performance & Profitability Dashboard
 Executive Summary
-Item	Details
+
 Project Title	E-commerce Sales Performance & Profitability Dashboard
 Submitted By	AVIN
 
 Business Objective
 To build an interactive Power BI dashboard that provides actionable insights into sales performance, profit margins, customer behaviour, and regional trends to support data-driven business decisions.
+
 Problem Statement
 Business Challenges
 E-commerce businesses face difficulty in:
@@ -15,6 +16,7 @@ E-commerce businesses face difficulty in:
 •	Identifying top-performing regions and customers
 •	Measuring impact of discounts on profitability
 •	Making data-driven decisions without centralized reporting
+
 Solution
 An interactive Power BI dashboard that provides:
 •	Centralized view of all key metrics
@@ -41,16 +43,12 @@ No	Action	Details	Status
 6	Cleaned City Column	Removed year prefixes (2023,2024,2025)	✅
 7	Verified Null Values	No critical null values found	✅
 
-
-
 Data Quality Report
 Quality Check	Result
 Duplicate Records	0 (All 15,000 unique)
 Null Values in Key Columns	0
 Data Type Mismatches	0
 Outliers Detected	None significant
-
-
 
 Measure Descriptions
 Key Insights & Findings
@@ -99,8 +97,6 @@ Maintain 10% average discount - Current discount level optimizes both sales volu
 Recommendation 6: Seasonal Planning
 Prepare for Q4 sales increase - Based on monthly trends, increase inventory and marketing in Oct-Dec.
 
-
-
 Challenges & Solutions
 Challenge	Solution
 Profit Margin showed 1500%	Corrected formula from Sales/Sales to Profit/Sales
@@ -109,12 +105,9 @@ Date showing hierarchy	Changed X-axis from Date Hierarchy to Month
 Missing % symbol	Formatted measure as Percentage in Measure tools
 Duplicate Order IDs	Used Remove Duplicates in Power Query
 
-Tools & Technologies Used
-
 Tool	Version	Purpose
 Power BI Desktop	Latest	Dashboard creation
 Power Query	Built-in	Data cleaning & transformation
 DAX	Built-in	Custom calculations
 GitHub	-	Project hosting & portfolio
 CSV	-	Data source
-
