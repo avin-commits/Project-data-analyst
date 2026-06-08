@@ -1,0 +1,121 @@
+# Project-data-analyst
+E-commerce Sales Performance & Profitability Dashboard
+Executive Summary
+Item	Details
+Project Title	E-commerce Sales Performance & Profitability Dashboard
+Submitted By	AVIN
+
+Business Objective
+To build an interactive Power BI dashboard that provides actionable insights into sales performance, profit margins, customer behaviour, and regional trends to support data-driven business decisions.
+Problem Statement
+Business Challenges
+E-commerce businesses face difficulty in:
+•	Tracking real-time sales performance across categories
+•	Understanding profit margins at product level
+•	Identifying top-performing regions and customers
+•	Measuring impact of discounts on profitability
+•	Making data-driven decisions without centralized reporting
+Solution
+An interactive Power BI dashboard that provides:
+•	Centralized view of all key metrics
+•	Drill-down capabilities by year, region, and category
+•	Visual insights into sales trends and patterns
+•	Actionable recommendations for business growth
+
+
+Dataset Description
+Data Source Overview
+Attribute	Value
+File Format	CSV
+Total Records	15,000+
+Total Columns	15
+Time Period	2024 - 2025
+
+Data Cleaning Process (Power Query)
+Steps Performed
+No	Action	Details	Status
+1	Promoted Headers	Set first row as column names	✅
+2	Changed Data Types	Assigned correct data types to each column	✅
+3	Removed Duplicates	Checked Order ID for uniqueness	✅
+4	Created Date Columns	Extracted Year, Quarter, Month	✅
+5	Created Discount %	Added calculated column: Discount/100	✅
+6	Cleaned City Column	Removed year prefixes (2023,2024,2025)	✅
+7	Verified Null Values	No critical null values found	✅
+
+
+
+Data Quality Report
+Quality Check	Result
+Duplicate Records	0 (All 15,000 unique)
+Null Values in Key Columns	0
+Data Type Mismatches	0
+Outliers Detected	None significant
+
+
+
+Measure Descriptions
+Key Insights & Findings
+
+Insight 1: Sales Performance
+Finding: Total Sales reached 533.67M, exceeding target by 6.7%.
+Impact: Strong overall business performance.
+Action: Maintain current sales strategies.
+
+Insight 2: Payment Mode Preference
+Finding: Credit Card and UPI are the most used payment methods (combined 60%+).
+Impact: Digital payments dominate.
+Action: Promote digital payment offers.
+
+Insight 3: Regional Performance
+Finding: South region shows highest profit margin.
+Impact: Geographic expansion opportunity.
+Action: Increase marketing spends in South region.
+
+Insight 4: Product Category Analysis
+Finding: Electronics category generates highest sales volume.
+Impact: Key revenue driver identified.
+Action: Ensure adequate Electronics inventory.
+
+Insight 5: Customer Behaviour
+Finding: Top 10 customers contribute significantly to revenue.
+Impact: Customer concentration risk.
+Action: Launch loyalty program for top customers.
+
+Insight 6: Discount Impact
+Finding: Average discount of 10% maintains healthy 14.94% profit margin.
+Impact: Current discount strategy is optimal.
+Action: Maintain current discount levels.
+
+Business Recommendations
+Recommendation 1: Inventory Management
+Increase Electronics category inventory - As the highest sales category (533.67M), ensure popular sub-categories are always in stock.
+Recommendation 2: Payment Optimization
+Promote Credit Card and UPI payments - Offer cashback/discounts for digital payments to reduce COD costs.
+Recommendation 3: Regional Expansion
+Expand operations in South region - With highest profit margins, open additional fulfilment centres.
+Recommendation 4: Customer Loyalty Program
+Launch loyalty program for top 10 customers - Retain high-value customers with exclusive benefits.
+Recommendation 5: Discount Strategy
+Maintain 10% average discount - Current discount level optimizes both sales volume and profit margin.
+Recommendation 6: Seasonal Planning
+Prepare for Q4 sales increase - Based on monthly trends, increase inventory and marketing in Oct-Dec.
+
+
+
+Challenges & Solutions
+Challenge	Solution
+Profit Margin showed 1500%	Corrected formula from Sales/Sales to Profit/Sales
+City column showing years	Used Replace Values to clean data in Power Query
+Date showing hierarchy	Changed X-axis from Date Hierarchy to Month
+Missing % symbol	Formatted measure as Percentage in Measure tools
+Duplicate Order IDs	Used Remove Duplicates in Power Query
+
+Tools & Technologies Used
+
+Tool	Version	Purpose
+Power BI Desktop	Latest	Dashboard creation
+Power Query	Built-in	Data cleaning & transformation
+DAX	Built-in	Custom calculations
+GitHub	-	Project hosting & portfolio
+CSV	-	Data source
+
